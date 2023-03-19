@@ -60,10 +60,12 @@
 
   })();
 
-  // state tokens, use unique name for visibility purpose 
-  Element.prototype.NDIyNTUyNQ = []; 
   Object.defineProperty(Element.prototype, 'stateList', {
     get() {
+      // state tokens, use unique name for visibility purpose 
+      if (Object.is(this.NDIyNTUyNQ, undefined)) {
+        this.NDIyNTUyNQ = [];
+      }
       return {
         add: stateList.add,
         remove: stateList.remove,
