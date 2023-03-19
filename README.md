@@ -4,11 +4,11 @@ JavaScript classList-like utility to separate styling application states with st
 ## Installation (CDN jsDelivr)
 Include in your application :
 ```html
-<script src="https://cdn.jsdelivr.net/gh/tmpmachine/statelist-utility@v1.0.1/statelistutils.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tmpmachine/statelist-utility@v1.0.1/statelist.js"></script>
 ```
 or use minified version :
 ```html
-<script src="https://cdn.jsdelivr.net/gh/tmpmachine/statelist-utility@v1.0.1/statelistutils.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tmpmachine/statelist-utility@v1.0.1/statelist.min.js"></script>
 ```
 
 # Syntax
